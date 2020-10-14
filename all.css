@@ -1,0 +1,25 @@
+.fa {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.fa-edit:before {
+  content: "Edit";
+}
+.fa-trash:before {
+  content: "\26cc";
+}
+.fa-trash-alt:before {
+  content: "\f2ed";
+}
+.fa-HEAD:after {
+  content: "\26c5";
+}
+
+.mb-4 {
+  border-style: outset;
+  border-radius: 6px;
+  border-color: rgba(23, 122, 18, 0.932);
+}
